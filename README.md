@@ -5,7 +5,7 @@
 </p>
 
 <p>
-  🇺🇸 If you want to use the system in a particular mongo, follow the examples in `.env.example` or .ENV below.
+  If you want to use the system in a particular mongo, follow the examples in `.env.example` or .ENV below.
 </p>
 
 <br/>
@@ -15,14 +15,14 @@
 </p>
 
 <p>
-  🇧🇷 Se você quiser usar o sistema em um mongo particular, siga os exemplos da `.env.example` ou nas .ENV logo abaixo.
+  Se você quiser usar o sistema em um mongo particular, siga os exemplos da `.env.example` ou nas .ENV logo abaixo.
 </p>
 
 # 🇧🇷 A aplicação está on-line no link | 🇺🇸 The application is online at the link:
 
 
 ```
-
+https://system-clients.vercel.app/
 ```
 
 ## 🇺🇸 If you want to analyze the project on your machine, follow this step by step. 🇧🇷 Caso você queira analisar o projeto em sua máquina, siga este passo a passo: 😁
