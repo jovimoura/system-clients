@@ -193,7 +193,6 @@ export default function Home() {
           ) : (
             null
           )}
-
           <Table variant="simple" overflow='auto' mt={6}>
             <Thead bg="white">
               <Tr>
