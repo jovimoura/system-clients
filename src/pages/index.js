@@ -40,7 +40,7 @@ export default function Home() {
   const isValidFormData = () => {
     if (!name) {
       return toast({
-        title: 'Preencha o campo nome!',
+        title: 'Fill in the name field!',
         status: 'error',
         duration: 9000,
         isClosable: true
@@ -49,7 +49,7 @@ export default function Home() {
 
     if (!email) {
       return toast({
-        title: 'Preencha o campo email!',
+        title: 'Fill in the email field!',
         status: 'error',
         duration: 9000,
         isClosable: true
@@ -58,7 +58,7 @@ export default function Home() {
 
     if (clients.some(client => client.email === email && client.id !== id)) {
       return toast({
-        title: 'Email já cadastrado!',
+        title: 'E-mail already registered!',
         status: 'error',
         duration: 9000,
         isClosable: true
@@ -78,7 +78,7 @@ export default function Home() {
       setEmail('')
       setIsFormOpen(!isFormOpen)
       toast({
-        title: 'Cadastrado com sucesso!',
+        title: 'Registered successfully!',
         status: 'success',
         duration: 9000,
         isClosable: true
@@ -94,7 +94,7 @@ export default function Home() {
     try {
       await api.delete(`/clients/${_id}`)
       toast({
-        title: 'Deletado com sucesso!',
+        title: 'Successfully deleted!',
         status: 'info',
         duration: 9000,
         isClosable: true
@@ -121,7 +121,7 @@ export default function Home() {
       setEmail('')
       setIsFormOpen(!isFormOpen)
       toast({
-        title: 'Atualizado com sucesso!',
+        title: 'Updated successfully!',
         status: 'success',
         duration: 9000,
         isClosable: true
